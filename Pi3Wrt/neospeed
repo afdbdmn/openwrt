@@ -2,13 +2,14 @@
 #
 opkg update
 opkg install libustream-openssl ca-bundle ca-certificates
+clear
 echo "Downloading neofetch"
 wget -O /bin/neofetch "https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetch"
 chmod +x /bin/neofetch
+clear
 echo "setting up neofetch..."
 sed -i 's/\[ -f \/etc\/banner \] && cat \/etc\/banner/#&/' /etc/profile
 sed -i 's/\[ -n "$FAILSAFE" \] && cat \/etc\/banner.failsafe/& || \/bin\/neofetch/' /etc/profile
 clear
-neofetch
 echo "Downloading Speedtest for aarch64"
-wget --no-check-certificate https://github.com/blackstar-git/openwrt/raw/main/Pi3Wrt/speedtest_aarch64 -O /usr/bin/speedtest && chmod +x /usr/bin/speedtest && clear && speedtest
+wget --no-check-certificate https://github.com/blackstar-git/openwrt/raw/main/Pi3Wrt/speedtest_aarch64 -O /usr/bin/speedtest && chmod +x /usr/bin/speedtest && clear && neofetch && speedtest
