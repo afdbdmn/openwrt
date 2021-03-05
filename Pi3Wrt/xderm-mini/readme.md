@@ -4,7 +4,7 @@
 
 ## 1. Badvpn, Corkscrew & V2ray for aarch64_cortex-a53
 ```
-wget -N https://raw.githubusercontent.com/blackstar-git/openwrt/main/Pi3Wrt/xderm-mini/bcv -P /root/temporary/ && chmod +x bcv && /root/temporary/./bcv
+wget -N https://raw.githubusercontent.com/blackstar-git/openwrt/main/Pi3Wrt/xderm-mini/bcv -P /root/temporary/ && chmod +x /root/temporary/bcv && /root/temporary/./bcv
 
 ```
 
