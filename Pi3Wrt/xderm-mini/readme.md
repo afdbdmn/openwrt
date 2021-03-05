@@ -54,11 +54,15 @@ wget -O /etc/redsocks.conf https://raw.githubusercontent.com/portalssh/openwrt/m
 ```
 wget -O /usr/bin/gproxy https://raw.githubusercontent.com/portalssh/openwrt/main/xderm-mini/gproxy && chmod +x /usr/bin/gproxy
 ```
-## 8. Reboot Device 
+## 9. TrojanVPN Reconfigure
+```
+./itroj
+```
+## 10. Reboot Device 
 ```
 reboot
 ```
-## 9. Open xderm-mini GUI
+## 11. Open xderm-mini GUI
 http://192.168.1.1/xderm
 ```
 username :
@@ -66,4 +70,21 @@ admin
 
 password :
 xderm
+```
+## 12. Edit Config xderm-mini
+```
+host=54.112.xxx.xxx
+port=4xx
+pudp=7300
+user=userxxx
+pass=passxxx
+sni=google.com
+vmess://eyJhZGQiOixxxx
+trojan://29f0db70-7d97xxx
+mode=0
+```
+```
+mode = 0 (ssh)
+mode = 1 (vmess)
+mode = 2 (trojan)
 ```
