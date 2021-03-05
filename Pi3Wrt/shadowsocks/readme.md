@@ -22,16 +22,5 @@ opkg update && opkg install luci-compat && opkg install --force-depends /root/sh
 ```
 ### Result
 Go to [luci](http://192.168.1.1) navigate to Services and find ShadowSocks
+
 ![image](https://user-images.githubusercontent.com/56350314/110140024-3cce7900-7e06-11eb-8434-cf38098cb917.png)
-
-## Configuring
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-
