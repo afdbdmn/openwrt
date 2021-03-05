@@ -6,13 +6,6 @@
 * https://www.portalssh.com/blog/cara-install-xderm-mini-gui-terbaru-tunnel-for-ssh-vmesh/
 
 ## Getting Started
-### Prerequisites
-```
-badvpn
-corkscrew
-v2ray
-trojan
-```
 ### Installing
 1. Badvpn, Corkscrew & V2ray
 ```
@@ -21,7 +14,7 @@ wget -N https://raw.githubusercontent.com/blackstar-git/openwrt/main/Pi3Wrt/xder
 ```
 2. xderm-mini Requirement
 ```
-opkg update && opkg install stunnel screen openssl-util ca-bundle ca-certificates libustream-openssl bash curl coreutils-base64 git sshpass python3 httping python3-pip procps-ng-ps redsocks openssh-client openssh-keygen openssh-server openvpn-openssl luci-app-openvpn https-dns-proxy
+opkg update && opkg install stunnel screen openssl-util ca-bundle ca-certificates libustream-openssl curl coreutils-base64 git sshpass python3 httping python3-pip procps-ng-ps redsocks openssh-client openssh-keygen openssh-server openvpn-openssl luci-app-openvpn https-dns-proxy
 ```
 ```
 python3 -m pip install requests
