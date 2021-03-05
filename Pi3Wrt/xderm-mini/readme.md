@@ -20,7 +20,7 @@ python3 -m pip install requests
 ```
 /usr/bin/python3 -m pip install --upgrade pip
 ```
-## 3. xderm-mini CLI Setup
+### 3. xderm-mini CLI Setup
 ```
 wget -O /usr/bin/xderm-mini https://raw.githubusercontent.com/ryanfauzi1/xderm-mini/main/xderm-mini
 ```
@@ -30,38 +30,38 @@ chmod +x /usr/bin/xderm-mini
 ```
 /usr/bin/xderm-mini setup
 ```
-## 4. xderm-mini GUI Dependencies
+### 4. xderm-mini GUI Dependencies
 ```
 opkg update && opkg install php7 php7-cgi php7-mod-session
 ```
-## 5. xderm-mini GUI Setup
+### 5. xderm-mini GUI Setup
 ```
 wget -O installer https://raw.githubusercontent.com/ryanfauzi1/xderm-mini_GUI/main/installer && chmod +x installer && ./installer
 ```
 ```
 wget -O installer-login https://raw.githubusercontent.com/ryanfauzi1/xderm-mini_GUI/main/installer-login && bash installer-login
 ```
-## 6. uhttpd Reconfigure
+### 6. uhttpd Reconfigure
 ```
 wget -O /etc/config/uhttpd https://raw.githubusercontent.com/portalssh/openwrt/main/xderm-mini/uhttpd && /etc/init.d/uhttpd restart
 ```
-## 7. Redsocks Reconfigure
+### 7. Redsocks Reconfigure
 ```
 wget -O /etc/redsocks.conf https://raw.githubusercontent.com/portalssh/openwrt/main/xderm-mini/redsocks
 ```
-## 8. Gproxy Reconfigure
+### 8. Gproxy Reconfigure
 ```
 wget -O /usr/bin/gproxy https://raw.githubusercontent.com/portalssh/openwrt/main/xderm-mini/gproxy && chmod +x /usr/bin/gproxy
 ```
-## 9. TrojanVPN Reconfigure
+### 9. TrojanVPN Reconfigure
 ```
 ./itroj
 ```
-## 10. Reboot Device 
+### 10. Reboot Device 
 ```
 reboot
 ```
-## 11. Open xderm-mini GUI
+### 11. Open xderm-mini GUI
 http://192.168.1.1/xderm
 ```
 username :
@@ -70,7 +70,7 @@ admin
 password :
 xderm
 ```
-## 12. Edit Config xderm-mini
+### 12. Edit Config xderm-mini
 ```
 host=54.112.xxx.xxx
 port=4xx
