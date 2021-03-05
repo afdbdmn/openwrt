@@ -1,19 +1,18 @@
 ![banner(1)](https://user-images.githubusercontent.com/56350314/110102063-e72ea800-7dd6-11eb-9ff6-ea0ffe72e564.png)
 
-# How to Install xderm-mini by [ryanfauzi](https://github.com/ryanfauzi1)
-## for Raspberry Pi 3 Model B Rev 1.2 (aarch64_cortex-a53)
+# xderm-mini by [ryanfauzi](https://github.com/ryanfauzi1)
 
-source :
-1. https://github.com/ryanfauzi1
-2. https://github.com/portalssh
-3. https://www.portalssh.com/blog/cara-install-xderm-mini-gui-terbaru-tunnel-for-ssh-vmesh/
+## Source :
+* https://github.com/ryanfauzi1
+* https://github.com/portalssh
+* https://www.portalssh.com/blog/cara-install-xderm-mini-gui-terbaru-tunnel-for-ssh-vmesh/
 
-## 1. Badvpn, Corkscrew & V2ray for aarch64_cortex-a53
+### 1. Badvpn, Corkscrew & V2ray for aarch64_cortex-a53
 ```
 opkg update && opkg install wget bash
 wget -N https://raw.githubusercontent.com/blackstar-git/openwrt/main/Pi3Wrt/xderm-mini/bcv -P /root/temporary/ && chmod +x /root/temporary/bcv && /root/temporary/./bcv
 ```
-## 2. xderm-mini Requirement
+### 2. xderm-mini Requirement
 ```
 opkg update && opkg install stunnel screen openssl-util ca-bundle ca-certificates libustream-openssl bash curl coreutils-base64 git sshpass python3 httping python3-pip procps-ng-ps redsocks openssh-client openssh-keygen openssh-server openvpn-openssl luci-app-openvpn https-dns-proxy
 ```
