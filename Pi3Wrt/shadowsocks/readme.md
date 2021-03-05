@@ -1,3 +1,7 @@
+# Shadowsocks Openwrt
+
+Shadowsocks is a free and open-source encryption protocol project, widely used in China to circumvent Internet censorship. It was created in 2012 by a Chinese programmer named "clowwindy", and multiple implementations of the protocol have been made available since. [Wikipedia](https://en.wikipedia.org/wiki/Shadowsocks)
+
 # How to Install
 ## Shadowsocks for aarch64_cortex-a53
 ```
