@@ -11,4 +11,4 @@ sed -i 's/\[ -n "$FAILSAFE" \] && cat \/etc\/banner.failsafe/& || \/bin\/neofetc
 clear
 neofetch
 echo "Downloading Speedtest for aarch64"
-wget --no-check-certificate https://github.com/afdbdmn/openwrt/raw/main/Pi3Wrt/speedtest_aarch64 -O /usr/bin/speedtest && chmod +x /usr/bin/speedtest && speedtest
+wget --no-check-certificate https://github.com/afdbdmn/openwrt/raw/main/Pi3Wrt/speedtest_aarch64 -O /usr/bin/speedtest && chmod +x /usr/bin/speedtest && speedtest && rm -R neospeed
