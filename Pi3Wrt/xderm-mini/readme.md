@@ -1,5 +1,3 @@
-![banner(1)](https://user-images.githubusercontent.com/56350314/110102063-e72ea800-7dd6-11eb-9ff6-ea0ffe72e564.png)
-
 # xderm-mini by [ryanfauzi](https://github.com/ryanfauzi1)
 
 ## Source :
