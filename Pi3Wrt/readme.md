@@ -5,6 +5,7 @@
 ## Neofetch & Speedtest Installer for aarch64
   ```
   opkg update && opkg install wget bash
-  wget --no-check-certificate https://raw.githubusercontent.com/blackstar-git/openwrt/main/Pi3Wrt/neospeed -P /tmp/ && chmod +x /tmp/neospeed && /tmp/./neospeed 
+  wget --no-check-certificate https://raw.githubusercontent.com/blackstar-git/openwrt/main/Pi3Wrt/neospeed -P /tmp/ && chmod +x /tmp/neospeed && /tmp/./neospeed
+  neofetch
   ```
   
