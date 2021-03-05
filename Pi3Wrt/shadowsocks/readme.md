@@ -19,3 +19,8 @@ wget -N --no-check-certificate https://github.com/blackstar-git/openwrt/raw/main
 ```
 opkg update && opkg install luci-compat && opkg install --force-depends /root/shadowsocks/*.ipk && rm -R shadowsocks
 ```
+
+## Source
+* https://openwrt.org/packages/pkgdata/luci-compat
+* http://openwrt-dist.sourceforge.net/
+ 
