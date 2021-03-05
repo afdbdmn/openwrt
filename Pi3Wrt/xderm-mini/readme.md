@@ -52,6 +52,15 @@ wget -O /usr/bin/gproxy https://raw.githubusercontent.com/portalssh/openwrt/main
 ```
 reboot
 ```
+## 9. Open xderm-mini GUI
+http://192.168.1.1/xderm
+```
+username :
+admin
+
+password :
+xderm
+```
 
 
 
