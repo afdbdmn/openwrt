@@ -4,8 +4,6 @@ Shadowsocks is a free and open-source encryption protocol project, widely used i
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
 luci-compat
 luci-app-shadowsocks
