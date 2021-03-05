@@ -8,6 +8,17 @@ wget -N https://raw.githubusercontent.com/blackstar-git/openwrt/main/Pi3Wrt/xder
 
 ```
 
+## 2. xderm-mini Requirement 
+```
+opkg update && opkg install stunnel wget screen openssl-util ca-bundle ca-certificates libustream-openssl bash curl coreutils-base64 git sshpass python3 httping python3-pip procps-ng-ps redsocks openssh-client openssh-keygen openssh-server openvpn-openssl luci-app-openvpn https-dns-proxy
+python3 -m pip install requests
+/usr/bin/python3 -m pip install --upgrade pip
+```
+
+## 3. xderm-mini Requirement 
+```
+
+```
 
 
 source :
