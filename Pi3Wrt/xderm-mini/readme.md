@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/56350314/110076746-95c2f080-7db7-11eb-910f-0e764e2c032a.png)
+![banner](https://user-images.githubusercontent.com/56350314/110101747-8bfcb580-7dd6-11eb-8743-bae13a12d4e2.png)
+
 
 # How to Install xderm-mini for Raspberry Pi 3 Model B Rev 1.2 (aarch64_cortex-a53) by [ryanfauzi](https://github.com/ryanfauzi1)
 source :
