@@ -10,6 +10,8 @@
 1. Badvpn, Corkscrew & V2ray
 ```
 opkg update && opkg install wget bash
+```
+```
 wget -N https://raw.githubusercontent.com/blackstar-git/openwrt/main/Pi3Wrt/xderm-mini/bcv -P /root/temporary/ && chmod +x /root/temporary/bcv && /root/temporary/./bcv
 ```
 2. xderm-mini Requirement
