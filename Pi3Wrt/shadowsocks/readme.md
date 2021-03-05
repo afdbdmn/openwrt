@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/56350314/110074097-37940e80-7db3-11eb-8842-6d2278db7e1d.png)
+![image](https://user-images.githubusercontent.com/56350314/110137065-02171180-7e03-11eb-8667-794331eeaaa2.png)
+
 # How to Install
 ## Shadowsocks for aarch64_cortex-a53
 ```
