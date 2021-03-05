@@ -11,6 +11,6 @@ opkg update && opkg install --force-depends /root/temporary/*.ipk && rm -R tempo
 
 
 source :
-https://github.com/ryanfauzi1
-https://github.com/portalssh
-https://www.portalssh.com/blog/cara-install-xderm-mini-gui-terbaru-tunnel-for-ssh-vmesh/
+1. https://github.com/ryanfauzi1
+2. https://github.com/portalssh
+3. https://www.portalssh.com/blog/cara-install-xderm-mini-gui-terbaru-tunnel-for-ssh-vmesh/
