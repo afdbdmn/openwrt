@@ -20,7 +20,7 @@ wget -N --no-check-certificate https://github.com/blackstar-git/openwrt/raw/main
 ```
 opkg update && opkg install luci-compat && opkg install --force-depends /root/shadowsocks/*.ipk && rm -R shadowsocks
 ```
-### Result
-Go to [luci](http://192.168.1.1) [http://192.168.1.1](http://192.168.1.1) navigate to Services and find ShadowSocks
-[http://192.168.1.1/cgi-bin/luci/admin/services/shadowsocks](http://192.168.1.1/cgi-bin/luci/admin/services/shadowsocks)
-
+## Configuring
+Go to
+* luci [http://192.168.1.1](http://192.168.1.1)
+* navigate to Services and find ShadowSocks [http://192.168.1.1/cgi-bin/luci/admin/services/shadowsocks](http://192.168.1.1/cgi-bin/luci/admin/services/shadowsocks)
