@@ -22,4 +22,5 @@ opkg update && opkg install luci-compat && opkg install --force-depends /root/sh
 ```
 ## Configuring
 1. Go to luci [http://192.168.1.1](http://192.168.1.1)
-2. Navigate to Services and find ShadowSocks [http://192.168.1.1/cgi-bin/luci/admin/services/shadowsocks](http://192.168.1.1/cgi-bin/luci/admin/services/shadowsocks)
+2. Navigate to **Services** find **ShadowSocks** [http://192.168.1.1/cgi-bin/luci/admin/services/shadowsocks](http://192.168.1.1/cgi-bin/luci/admin/services/shadowsocks) and switch to **Servers Manage** tab
+3. 
