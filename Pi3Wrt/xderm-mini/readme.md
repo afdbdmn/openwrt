@@ -3,11 +3,12 @@
 # How to Install xderm-mini by [ryanfauzi](https://github.com/ryanfauzi1)
 ## 1. Badvpn, Corkscrew & V2ray for aarch64_cortex-a53
 ```
+opkg update && opkg install wget bash
 wget -N https://raw.githubusercontent.com/blackstar-git/openwrt/main/Pi3Wrt/xderm-mini/bcv -P /root/temporary/ && chmod +x /root/temporary/bcv && /root/temporary/./bcv
 ```
 ## 2. xderm-mini Requirement
 ```
-opkg update && opkg install stunnel wget screen openssl-util ca-bundle ca-certificates libustream-openssl bash curl coreutils-base64 git sshpass python3 httping python3-pip procps-ng-ps redsocks openssh-client openssh-keygen openssh-server openvpn-openssl luci-app-openvpn https-dns-proxy
+opkg update && opkg install stunnel screen openssl-util ca-bundle ca-certificates libustream-openssl bash curl coreutils-base64 git sshpass python3 httping python3-pip procps-ng-ps redsocks openssh-client openssh-keygen openssh-server openvpn-openssl luci-app-openvpn https-dns-proxy
 ```
 ```
 python3 -m pip install requests
