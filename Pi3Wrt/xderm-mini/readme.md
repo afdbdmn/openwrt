@@ -58,10 +58,6 @@ wget -O /etc/redsocks.conf https://raw.githubusercontent.com/portalssh/openwrt/m
 ```
 wget -O /usr/bin/gproxy https://raw.githubusercontent.com/portalssh/openwrt/main/xderm-mini/gproxy && chmod +x /usr/bin/gproxy
 ```
-* TrojanVPN Reconfigure
-```
-./itroj
-```
 * Reboot Device 
 ```
 reboot
